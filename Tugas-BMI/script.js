@@ -17,13 +17,13 @@ function calculateBMI() {
 	let result;
     //membuat sebuah perulangan untuk menentukan BMI
 	if (bmi < 18.5) {
-		result = "Kurus";
+		result = "UnderWeight";
 	} else if (bmi < 25) {
-		result = "Normal";
+		result = "Normal Weight";
 	} else if (bmi < 30) {
-		result = "Gemuk";
+		result = "OverWeight";
 	} else {
-		result = "Obesitas";
+		result = "Obesity";
 	}
 	//Menampilkan hasil BMI dengan DOM, yang di tampilkan di html.
 	document.getElementById("hasil").innerHTML = `BMI Anda: ${bmi.toFixed(2)}. Kategori berat badan Anda: ${result}.`;
