@@ -26,5 +26,5 @@ function calculateBMI() {
 		result = "Obesity";
 	}
 	//Menampilkan hasil BMI dengan DOM, yang di tampilkan di html.
-	document.getElementById("hasil").innerHTML = `BMI Anda: ${bmi.toFixed(2)}. Kategori berat badan Anda: ${result}.`;
+	document.getElementById("hasil").innerHTML = `Your BMI is ${bmi.toFixed(2)}. which means You are ${result}.`;
 }
