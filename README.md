@@ -42,3 +42,5 @@ Tugas MBI sendiri berada dalam folder Tugas-MBI. berikut beberapa kriteria dari 
 1. Input Berat Badan = 60Kg
 2. Inout Tinggi Badan = 167Cm
 3. Rumus MBI = 60 / (167/100)^2 BMI = 60 / (2.8) BMI = 21.5 BMI Categories: Normal Weight
+
+![hasil expected result](https://ibb.co/gwQ9hpK)
